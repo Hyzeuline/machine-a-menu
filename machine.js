@@ -20,19 +20,19 @@ const menus = [
         dessert: "Salade d'ananas",
     },
     {
-        starter: 'Oeufs mimosa',
-        maindish: 'Tagliatelles au gorgonzola, carotte et artichaut grillés',
-        dessert: "Salade d'ananas",
+        starter: 'Brocolis rôtis',
+        maindish: 'Dahl de lentilles corail et riz',
+        dessert: "Bûche de chèvre et Orange",
     },
     {
-        starter: 'Oeufs mimosa',
-        maindish: 'Tagliatelles au gorgonzola, carotte et artichaut grillés',
-        dessert: "Salade d'ananas",
+        starter: 'Salade verte aux graines de tournesol',
+        maindish: 'Lasagne bolognaise',
+        dessert: 'Purée de pomme banane',
     }, 
     {
-        starter: 'Oeufs mimosa',
-        maindish: 'Tagliatelles au gorgonzola, carotte et artichaut grillés',
-        dessert: "Salade d'ananas",
+        starter: 'Chou rouge aux pommes, emmental et aux noix',
+        maindish: 'Quiche Lorraine',
+        dessert: 'Clémentines',
     }
 ];
 

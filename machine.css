@@ -1,15 +1,41 @@
+body {
+    font-family: Quicksand;
+    background-color:rgba(247, 233, 197, 1);
+}
+header {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+h1 {
+    font-weight: 1000;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    background-color: rgba(173, 210, 176, 1);
+}
 .week {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 1rem;
     padding: 1rem;
-    background-color:rgba(247, 233, 197, 1);
 }
 
 .menus {
-background-color: rgba(173, 210, 176, 1);
+background-color: white;
+border-radius: 30px;
+text-align: center;
+border: 2px solid black;
 }
 
 .dinners {
 background-color: rgba(211, 174, 200, 1); 
+border-radius: 30px;
+text-align: center;
+border: 2px solid black;
 }
+
