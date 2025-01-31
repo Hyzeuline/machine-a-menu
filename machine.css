@@ -6,8 +6,16 @@ header {
    display: flex;
    align-items: center;
    gap: 1rem;
+   margin-left: 50px;
 }
-
+button {
+font-family: Quicksand; 
+font-weight: 1000;
+border: 2px solid black;
+border-radius: 20px;
+text-align: center;
+margin-right: 50px;
+}
 h1 {
     font-weight: 1000;
     margin-right: auto;
@@ -24,16 +32,14 @@ h3 {
     gap: 1rem;
     padding: 1rem;
 }
-
 .menus {
 background-color: white;
 border-radius: 30px;
 text-align: center;
 border: 2px solid black;
 }
-
 .dinners {
-background-color: rgba(211, 174, 200, 1); 
+background-color:white;  
 border-radius: 30px;
 text-align: center;
 border: 2px solid black;

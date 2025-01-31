@@ -41,7 +41,37 @@ const dinners = [
         starter: 'Velouté de potimarron coco',
         maindish: 'Totilla de pomme de terre et cantal',
         dessert: 'Tartare de kiwi et mangue',
-    }
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
+    {
+        starter: 'Velouté de potimarron coco',
+        maindish: 'Totilla de pomme de terre et cantal',
+        dessert: 'Tartare de kiwi et mangue',  
+    },
 ];
 
 const weekDiv = document.querySelector('.week')
