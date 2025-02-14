@@ -22,6 +22,7 @@ h1 {
 }
 h2 {
     text-align: center;
+    margin: 0;
 }
 h3{
     margin: 0;
@@ -30,7 +31,11 @@ h3{
     border-radius: 18px 18px 0 0;
     border-bottom: 2px solid black;
 }
- 
+.day {
+    display : flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .week {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
