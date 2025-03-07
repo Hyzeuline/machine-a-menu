@@ -1,68 +1,83 @@
 body {
-    font-family: Quicksand;
-    background-color:rgba(247, 233, 197, 1);
+  font-family: Quicksand;
+  background-color: rgba(247, 233, 197, 1);
 }
 header {
-   display: flex;
-   align-items: center;
-   gap: 1rem;
-   margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 50px;
 }
-button {
-font-family: Quicksand; 
-font-weight: 1000;
-border: 2px solid black;
-border-radius: 20px;
-text-align: center;
-margin-right: 50px;
+#generate {
+  display: flex;
+  align-items: center;
+  outline: none;
+  gap: 0.5rem;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  border: 0.15rem solid black;
+  cursor: pointer;
+  border-radius: 0.5em;
+  background-color: #d3aec8;
+  font-family: Comic Sans MS;
+  box-shadow: 0.4rem 0.4rem 0 #0002;
+  transition: 0.3s all;
+  &:hover,
+  &:focus-visible {
+    background-color: black;
+    color: white;
+  }
+  &:active {
+    box-shadow: none;
+    translate: 0.4rem 0.4rem;
+  }
 }
 h1 {
-    font-weight: 1000;
-    margin-right: auto;
+  font-weight: 1000;
+  margin-right: auto;
 }
 h2 {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
-h3{
-    margin: 0;
-    padding: 0.5rem;
-    background-color: rgba(173, 210, 176, 1);
-    border-radius: 18px 18px 0 0;
-    border-bottom: 2px solid black;
+h3 {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: rgba(173, 210, 176, 1);
+  border-radius: 18px 18px 0 0;
+  border-bottom: 2px solid black;
 }
 .day {
-    display : flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .week {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 20px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 .menus {
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    border: 2px solid black;
-    div {
-        padding-inline: 10px;
-        padding-bottom: 20px;
-    }
-}
-.dinners {
-background-color:white;  
-border-radius: 20px;
-text-align: center;
-border: 2px solid black;
-h3 {
-    background-color: rgba(211, 174, 200, 1);
-}
-div {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid black;
+  div {
     padding-inline: 10px;
     padding-bottom: 20px;
+  }
 }
+.dinners {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid black;
+  h3 {
+    background-color: rgba(211, 174, 200, 1);
+  }
+  div {
+    padding-inline: 10px;
+    padding-bottom: 20px;
+  }
 }
-
